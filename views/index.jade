@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	div.page-header
+		h1(style='text-align: center;') Tweets Programación Web 2017-10
+	div.container-fluid
+		div.jumbotron
+			div.row
+				for object in tweets
+					div.estudiante.col-md-3
+						a(href='https://twitter.com/#{object.user.screen_name}', target='_blank')
+							div(style='float: right;')
+								h4 #{object.user.name}
+								h5(style='text-align: right;') @#{object.user.screen_name}
+						div.contenedor-img-lista
+							a(href='https://twitter.com/#{object.user.screen_name}', target='_blank')
+								img.img-lista(src=object.user.profile_image_url)
+							div.links-lista #{object.text}

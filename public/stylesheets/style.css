@@ -1,0 +1,23 @@
+* {
+	font-family: Roboto;
+}
+
+.estudiante {
+	width: 18em;
+	height: 9.5em;
+	border: ridge #b9b9b9;
+	margin: 5px;
+	padding: 0px 0.5em;
+}
+
+.img-lista {
+	padding: 5px;
+	margin: 5px;
+}
+
+.links-lista {
+	height: 75%;
+	overflow: hidden;
+	word-break: break-all;
+	font-size: medium;
+}
