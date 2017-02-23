@@ -12,6 +12,10 @@
 	border-radius: 10px;
 }
 
+.estudiante:hover {
+	border-style: ridge;
+}
+
 .img-lista {
 	padding: 5px;
 	margin: 5px;
