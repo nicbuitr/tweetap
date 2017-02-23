@@ -5,14 +5,17 @@
 .estudiante {
 	width: 18em;
 	height: 9.5em;
-	border: ridge #b9b9b9;
+	border-style: groove;
+    background-color: #dddddd;
 	margin: 5px;
 	padding: 0px 0.5em;
+	border-radius: 10px;
 }
 
 .img-lista {
 	padding: 5px;
 	margin: 5px;
+	border-radius: 10px;
 }
 
 .links-lista {
